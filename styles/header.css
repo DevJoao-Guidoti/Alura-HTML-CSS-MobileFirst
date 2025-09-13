@@ -21,6 +21,7 @@
     display: none;
     position: absolute;
     top:100%;
+    width: 70vw;
 }
 .container__botao:checked~.container_lista_menu{
     display: block;
@@ -31,10 +32,17 @@
     padding: 1rem;
     background-color: var(--background-principal);
 }
-.lista-menu_link{
-    text-decoration: none;
-   
-}
 .lista-menu_titulo{
     color: var(--titulo-principal);
+    font-weight: 700;
+}
+.lista-menu_link{
+    color: var(--background-principal);
+}
+.lista-menu_link a{
+    color:  #002F52;
+    text-decoration: none;
+}
+.container__botao{
+    display: none;
 }
